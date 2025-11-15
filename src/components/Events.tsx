@@ -1,5 +1,5 @@
 import { Card } from "@/components/ui/card";
-import { Calendar, Users, Lightbulb, Rocket, Code, Trophy } from "lucide-react";
+import { Calendar, Users, Lightbulb, Rocket, Code, Trophy, Laugh } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Events = () => {
@@ -17,6 +17,13 @@ const Events = () => {
       description: "Network with fellow entrepreneurs and share insights on building successful startups.",
       date: "Bi-weekly",
       type: "Networking",
+    },
+    {
+      icon: Laugh,
+      title: "Meme Battle",
+      description: "Epic showdown of creativity and humor! Create the funniest tech memes and compete for glory.",
+      date: "Monthly",
+      type: "Competition",
     },
     {
       icon: Trophy,
